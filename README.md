@@ -8,8 +8,6 @@ Created an English dictionary using the Data Structures and Algorithms with opti
   - Delete Word
   -	Add Word
   - Use of an optimize Data Structure in terms of time and space complexity.
-## Data Structure: -
-- Attains **time and space complexity**
 - Best working and efficiency using **Trie Trees and Chaining** of data in our Dictionary Implementation.
 ## Storage efficiency:
  - As dictionary is storage of a large number of words in alphabetical order so chaining is the best approach to store words for each alphabet. As, we make an array of 26 letters and then chain the words of each corresponding letter by attaching a linked list to each word index.
@@ -60,7 +58,7 @@ The insert function inserts the string in trie tree , by traversing through each
 # Suggestions:
 - It takes the each letter that is input by user, check it a as current string, 
 - Finds out the length of that entered prefix and traverse upto that length in trie tree
-- Then go to **Depth First Search (DFS) ** for checking each possible word that can be formed form the current prefix and
+- Then go to **Depth First Search (DFS)** for checking each possible word that can be formed form the current prefix and
 - Display all the children or words that are in trie tree related to that entered string.
  
       bool get_prefix(string prefix)
